@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the Owners | Bush Gaming</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+        <nav class="navbar">
+            <a href="#">About</a>
+            <a href="#">Schedule</a>
+            <a href="#">News</a>
+            <a href="index.html" target="_self"><img src="Pictures/Bush Logo-White.png" class="logo"></a>
+            <a href="#">Roster</a>
+            <a href="https://store.barstoolsports.com/collections/bush-gaming" target="_blank" rel="noopener noreferrer">Shop</a>
+            <a href="#">Partners</a>
+        </nav>
+    <section class="owners-header">
+        <h1>Meet the Owners</h1>
+    </section>
+    <section class="owners">
+        <div class="owners-grid">
+            <div class="owner-card" onclick="openOwner('austin')">
+                <img src="Pictures/AustinJenkinsProfile.jpeg">
+                <h3>Austin Jenkins</h3>
+                <p>Owner / President</p>
+            </div>
+            <div class="owner-card" onclick="openOwner('jerry')">
+                <img src="Pictures/JerseyJerryProfile.jpg">
+                <h3>Jersey Jerry</h3>
+                <p>Co-Founder / Creator</p>
+            </div>
+            <div class="owner-card" onclick="openOwner('sas')">
+                <img src="Pictures/LilSasProfile.jpg">
+                <h3>Lil Sas</h3>
+                <p>Co-Founder / Creator</p>
+            </div>
+            <div class="owner-card" onclick="openOwner('mook')">
+                <img src="Pictures/ConnorMookProfile.jpg">
+                <h3>Connor Mook</h3>
+                <p>Co-Founder / Creator</p>
+            </div>
+        </div>
+
+    </section>
+    <script src="scripts/script.js"></script>
+</body>
+<div class="modal" id="ownerModal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalImg">
+        <h2 id="modalName"></h2>
+        <p id="modalRole"></p>
+        <p id="modalBio"></p>
+        <div class="socials">
+            <a id="insta" target="_blank">Instagram</a>
+            <a id="twitter" target="_blank">Twitter</a>
+        </div>
+    </div>
+</div>
+</html>
