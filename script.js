@@ -4,7 +4,7 @@ const owners = {
         name: "Austin Jenkings",
         role: "Owner / President",
         bio: "Assigned the President of the Bush by Dave Portnoy and Big Cat. Responsible for all major decisions and oversight of the Bush.",
-        img: "Pictures/AustinJenkinsProfile.jpeg",
+        img: "AustinJenkinsProfile.jpeg",
         insta: "https://www.instagram.com/austinjenkins77/",
         twitter: "https://x.com/AustinJenkins07?lang=en"
     },
@@ -13,7 +13,7 @@ const owners = {
         name: "Jersey Jerry",
         role: "Co-Founder / Creator",
         bio: "Jersey Jerry was born in New Jersey in 1994 and is a lifelong Pitsburgh Steelers fan. Jerry started off as a Union pipefitter before joining the Barstool team in 2021. Jerry now does many podcasts and shows at Barstool but most important to him is growing the Unshaven Army and facilitating the best Bush placements in contests",
-        img: "Pictures/JerseyJerryProfile.jpg",
+        img: "JerseyJerryProfile.jpg",
         insta: "https://www.instagram.com/jerrythekid21",
         twitter: "https://x.com/Jerrythekid21?lang=en",
         youtube: "https://www.youtube.com/channel/UCMSnM6Nzua5va83YApzW86w",
@@ -23,7 +23,7 @@ const owners = {
         name: "Lil Sasquatch",
         role: "Co-Founder / Creator",
         bio: "Lil Sasquatch, who's real name is Harry Settel, is a stand up comedian in New York City. Lil Sas was born in Massachusetts and joined Barstool in 2020 after going viral from comedy sketches. Lil Sas is part of major podcast Sun of a Boy Dad and is a major leader of the Bush and their operations.",
-        img: "Pictures/LilSasProfile.jpg",
+        img: "LilSasProfile.jpg",
         insta: "https://www.instagram.com/lilsasquatch666",
         twitter: "https://www.twitter.com/lilsamsquanch66",
         youtube: "https://www.youtube.com/@sonofaboydad"
@@ -32,7 +32,7 @@ const owners = {
         name: "Connor Mook",
         role: "Co-Founder / Creator",
         bio: "Connor Mook is a key player in the Barstool Sports universe, known for his behind-the-scenes work and contributions to various projects. He has a background in operations and logistics, making him an invaluable asset to the team.",
-        img: "Pictures/ConnorMookProfile.jpg",
+        img: "ConnorMookProfile.jpg",
         insta: "https://www.instagram.com/connormook_",
         twitter: "https://x.com/ConnorMook_",
         youtube: "https://www.youtube.com/@MookCantSleep"
